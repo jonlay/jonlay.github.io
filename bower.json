@@ -1,0 +1,13 @@
+{
+  "name": "jonlay",
+  "version": "1.0",
+  "homepage": "https://github.com/jonlay/jonlay.github.io",
+  "authors": [
+    "Jon Lay"
+  ],
+  "description": "Minisite using the Cardinal CSS framework.",
+  "main": "css/main.css",
+  "dependencies": {
+    
+  }
+}
