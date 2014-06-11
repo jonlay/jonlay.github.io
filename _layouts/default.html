@@ -35,6 +35,7 @@
         <header>
         	<div class="h-wrap">
         		<h1 class="title"><a href="/" title="Back to Homepage">{{ site.name }}</a></h1>
+        		<a href="https://twitter.com/jon_lay" class="twitter-follow-button" data-show-count="false">Follow @jon_lay</a>
         		<a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
         	</div>
         </header>
@@ -46,6 +47,8 @@
         <footer>
         	<small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.author }}</small>
         </footer>
+
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
         <script src="{{ site.baseurl }}/js/main.js"></script>
         {% comment %} Google Analytics {% endcomment %}
