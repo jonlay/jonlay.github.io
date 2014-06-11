@@ -1,10 +1,15 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
-url: "http://yourdomain.com"
+name: "Jon Lay"
+description: "Peopleware, design agencies, and figuring out a path."
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+author: "Jon Lay"
+
+url: "jonlay.com"
+baseurl: ""
+
+markdown: rdiscount
+permalink: :year/:month/:title
+pygments: true
+
+# Google Analytics
+# ga_domain: m3xm.github.io
+# ga_tracking_id: UA-47727049-1
