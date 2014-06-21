@@ -9,7 +9,7 @@ date:   2014-05-19 16:57:51
 ##Step 1: the ‘on the side’ freelancer
 a.k.a. The one who doesn’t have bills to pay
 
-**Team size**: 1
+**Team size**: 1  
 **My pro rata salary per-year**: £10,000
 
 What seems like many years ago, I was a freelancer, picking up the occasional project on the side while studying. Back in those days, with few financial overheads, once you'd built up a bit of a reputation it was pretty straightforward to bring in the occasional project and make a little money on the side. Without the need to even make a sustainable income, it was easy to undercut larger teams massively, and still bank an attractive amount of cash by building small websites. It’s simple to attract clients when you’re perfectly positioned to deliver decent work, at low cost.
@@ -17,7 +17,7 @@ What seems like many years ago, I was a freelancer, picking up the occasional pr
 ##Step 2: the ‘pushing hard’ freelancer
 a.k.a. The one who doesn’t know their worth
 
-**Team size**: 1
+**Team size**: 1  
 **My pro rata salary per-year**: £17,000
 
 Once I graduated, I decided to take a year out to see if it’d be possible to turn this into a ‘proper’ job. Business was a bit slow initially, without a huge portfolio to attract clients with, but within a couple of months, it began to ramp up, and I had too much to handle.
@@ -31,7 +31,7 @@ But that doesn’t mean it’s a state of affairs that you can keep up forever..
 ##Step 3: the ‘newly aware’ freelancer
 a.k.a. The one who is more expensive, all of a sudden
 
-**Team size**: 2
+**Team size**: 2  
 **My pro rata salary per-year**: £50,000
 
 But while ‘pushing hard’ was a fun challenge, the work was tough&mdash;I was lucky enough to not suffer any health problems from a year or so of working like crazy (although my wrists and back were showing signs of not being too happy about it), but I know many others who haven’t been so fortunate, and have paid the physical price for it.
@@ -43,7 +43,7 @@ With this in mind, as soon as I thought I was decent enough to compete with othe
 ##Step 4: the ‘cheap agency’
 a.k.a. The agency that’s like a Step 1 freelancer
 
-**Team size**: 3
+**Team size**: 3  
 **My pro rata salary per-year**: £24,000
 
 Okay, so that was the plan, at least. In fact, I’m not being entirely honest when I say I cut back my hours. You probably figured as much, when you saw that £50,000 figure up above. In reality, for a period of 6 months or so, I still worked 18+ hours a day, getting up at 10am and working right through till 6am, since I had several US clients.
@@ -61,7 +61,7 @@ And all of a sudden, without the overheads of costly offices, employment costs, 
 ##Step 5: the small, but unsustainable agency
 a.k.a. The agency that can’t keep this going for too long, before the cracks start to show
 
-**Team size**: 4
+**Team size**: 4  
 **My pro rata salary per-year**: £26,000
 
 It’s funny how these things go round in cycles. The luxury of having saved up a decent cash buffer gave us the breathing space we needed to focus heavily on improving our expertise as fast as possible. Back in those days, we gave a generous amount of ‘free’ work away to clients on larger projects&mdash;there might be 100 hours of billable work on a project, but the client wouldn’t necessarily see the other 125 hours that had been spent on anything from running into smaller issues due to our inexperience, to sometimes trying out several different design directions before showing one to the client, simply because we were determined to improve, do the best job possible, and get things right.
@@ -75,7 +75,7 @@ But even if we were billing well on some decent projects, running an agency wher
 ##Step 6: The more expensive small agency
 a.k.a. The agency that’s finding its voice
 
-**Team size**: 7
+**Team size**: 7  
 **My pro rata salary**: let’s see how it goes
 
 Attracting, and retaining great designers and developers is [something I’ve written about before](http://hanno.co/logbook/hiring-designers)&mdash;and I really do think that it’s critical. There’s no way you can run a sustainable business unless you’ve got a good team around you, and you can keep them excited about producing quality work. There are no magic tricks here&mdash;in order to attract great talent, you have to at least pay above market rate. Even if you leverage remote working, and offer crazy perks like [paying for the team to move to Kuala Lumpur and Hong Kong for 6 weeks](http://hanno.co/logbook/helipads-durian-monkeys-websites), you still need to be paying fairly, and creating a work environment that people enjoy, and can produce great work in.
