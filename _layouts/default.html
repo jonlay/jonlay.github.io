@@ -11,7 +11,7 @@
 	<meta name="description" content="{{ site.description }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css?v=2" />
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/syntax.css" />
 	<link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
 </head>
@@ -21,24 +21,24 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <div id="off-canvas">
+        <header>
+        	<div class="h-wrap">
+        		<h1 class="title"><a href="/" title="Back to Homepage">{{ site.name }}</a></h1>
+        		<a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
+        	</div>
+        </header>
+
+		<div id="off-canvas">
         	<div id="avatar">
         		<img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Profile Picture" title="wow, very face, such photograph, wow">
         	</div>
         	<div id="bio">
-        		<h1>Hi, I'm {{ site.author }}.</h1>
-        		<p>I'm a Londoner, currently based in <strong>Kuala Lumpur</strong>. I'm a UX designer, frontend developer, craft beer affecionado, food lover and team lead at <a href="http://hanno.co">Hanno</a>, working with a phenomenally talented bunch of people.</p>
-        		<p>You can find me on <a href="http://uk.linkedin.com/in/jonlay/">LinkedIn</a>, <a href="https://twitter.com/jon_lay">Twitter</a> or <a href="https://github.com/jonlay">GitHub</a>. <a href="http://hanno.co/team/jon">Read my full profile</a>.</p></p>
+        		<h1>Who am I?</h1>
+        		<p>A UX designer and developer by trade, I'm the founder of a UX design agency called <a href="http://hanno.co">Hanno</a>. These days I spend as much time thinking and writing about <a href="http://en.wikipedia.org/wiki/Peopleware">peopleware</a> as I do about software.</p>
+				<p>I'm a food and craft beer-loving Londoner who is currently based in Kuala Lumpur. No doubt, I'll look back on most of this writing in the future and cringe.</p>
+        		<p><a href="http://hanno.co/team/jon">Check out my full profile</a> or <a href="https://twitter.com/jon_lay">grab me on Twitter</a>.</p>
         	</div>
         </div>
-
-        <header>
-        	<div class="h-wrap">
-        		<h1 class="title"><a href="/" title="Back to Homepage">{{ site.name }}</a></h1>
-        		<a href="https://twitter.com/jon_lay" class="twitter-follow-button" data-show-count="false">Follow @jon_lay</a>
-        		<a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
-        	</div>
-        </header>
 
         <main>
         	{{ content }}
@@ -50,7 +50,8 @@
 
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-        <script src="{{ site.baseurl }}/js/main.js"></script>
+         <script src="{{ site.baseurl }}/js/main.js?v=2"></script>
+
         {% comment %} Google Analytics {% endcomment %}
         {% if site.ga_tracking_id and site.ga_domain %}
         <script>

@@ -58,6 +58,7 @@ a:hover   { color: #444; }
 header {
   width: 100%;
   background: #fff;
+  border-bottom: 1px solid #ddd;
 }
 
 header .h-wrap {
@@ -77,6 +78,7 @@ header .h-wrap h1.title {
 header .h-wrap h1.title a {
   color: #333;
   text-decoration: none;
+  font-weight: bold;
 }
 
 header .h-wrap h1.title a:hover {
@@ -185,7 +187,7 @@ header .h-wrap .close .lines::after {
   overflow: hidden;
   padding: 0px 40px;
   background: #fafafa;
-  border-bottom: 0px solid #f1f1f1;
+  border-bottom: 0px solid #DDDDDD;
   -webkit-transition: max-height .35s ease, 
                       padding-top .35s ease, 
                       padding-bottom .35s ease, 
@@ -199,7 +201,7 @@ header .h-wrap .close .lines::after {
 #off-canvas.toggled {
   max-height: 90%;
   padding: 40px;
-  border-width: 1px;
+  border-bottom: 1px solid #DDDDDD;
   -webkit-transition: max-height .35s ease, 
                       padding-top .35s ease, 
                       padding-bottom .35s ease, 
@@ -313,16 +315,20 @@ ul.posts li a { color: #fff; text-decoration: none; }
 
 section#single-wrap {
   width: 100%;
-  max-width: 780px;
-  margin: 20px auto;
-  font-family: 'Lora', Georgia, serif;
+  max-width: 880px;
+  margin: 0 auto 20px;
   background: #fff;
   z-index: 1;
 }
 
+section#single-wrap p {
+	font-family: 'Lora', Georgia, serif;
+}
+
 section#single-wrap .single-content {
-  padding: 0 40px;
+  padding: 0;
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 section#single-wrap .feat {
@@ -393,12 +399,12 @@ section#single-wrap h6 {
   margin-top: 40px;
 }
 
-section#single-wrap h1 { font-size: 150%; }
-section#single-wrap h2 { font-size: 140%; font-style: italic; }
-section#single-wrap h3 { font-size: 130%; font-weight: lighter; }
-section#single-wrap h4 { font-size: 120%; font-weight: lighter; text-decoration: underline; text-align: center; }
-section#single-wrap h5 { font-size: 110%; }
-section#single-wrap h6 { font-size: 100%; }
+section#single-wrap h1 { font-size: 160%; }
+section#single-wrap h2 { font-size: 150%; }
+section#single-wrap h3 { font-size: 140%; font-weight: lighter; }
+section#single-wrap h4 { font-size: 150%; font-weight: lighter; text-decoration: underline; text-align: center; }
+section#single-wrap h5 { font-size: 120%; }
+section#single-wrap h6 { font-size: 110%; }
 section#single-wrap p { line-height: 160%; }
 
 section#single-wrap blockquote {
@@ -556,12 +562,17 @@ section#single-wrap img {
   header .h-wrap { padding: 30px 20px; }
   ul.posts li .p-wrap { padding: 20px; }
   ul.posts li .p-wrap:hover { background: #67AAF7; padding-left: 20px; }
-  #off-canvas { padding: 0 20px; }
+  #off-canvas { padding: 20px 20px; }
   #off-canvas.toggled { padding: 20px; }
   #off-canvas #bio { width: 100%; }
-  #off-canvas #avatar img { width: 120px; }
+  #off-canvas #avatar {
+	margin: 10% 0 4% 4%;
+  }
+  #off-canvas #avatar img {
+  	width: 90px;
+  	margin: auto;
+  }
   section#single-wrap { margin: 0 auto; }
-  section#single-wrap .single-content { padding: 0 20px; }
   section#single-wrap h1.page-title { padding: 0 20px; margin: 0 0 30px; }
   section#single-wrap p { padding: 0 20px; }
 
