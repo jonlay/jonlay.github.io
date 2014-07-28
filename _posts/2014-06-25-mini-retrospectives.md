@@ -27,6 +27,7 @@ A mini-retro can be called for any decision or situation--for example, a meeting
 And even if you are doing agile, with sprints and retrospectives, it’s sometimes necessary to get faster feedback, rather than waiting till the end of the sprint. Sometimes that feedback would arrive too late, otherwise.
 
 They really shine when:
+
 * You’re tackling new tasks, or working with new team members, or training less experienced team members - giving more frequent feedback, as early as possible, can be especially valuable here.
 * When the problem isn’t necessarily related to the whole team. The mini retro should be visible to them, but they don’t necessarily need to engage, I’ve found mini retros to be useful even in resolving tricky situations between 2 team members. If both the team members, and the company, have the right cultural approach, i.e. “problems happen--let’s try and make both our lives easier next time and do this better”, then a retro can be hugely positive, even if it’s triggered by a very negative event.
 * When you’re dealing with a potentially ‘finger-pointing’ situation. The retro is a calm place to have a positive discussion, without resorting to blaming each other. It’s hard to understate the value of this. It can stop conflict in its tracks, rather than letting it simmer for days or weeks.
