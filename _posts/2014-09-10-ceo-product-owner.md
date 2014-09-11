@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Please don’t let your CEO be the product owner"
-date:   2014-09-20 10:18:00
+date:   2014-09-10 10:18:00
 ---
 Building great products can be really tough--it’s a constant challenge to find better ways to do it, and to make sure that the whole team is working together to hit the same goal.
 
