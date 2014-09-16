@@ -3,20 +3,18 @@ layout: default
 title: Homepage
 ---
 
+<script type="text/html" id="exampleTemplate">
+<li itemscope itemtype="http://schema.org/BlogPosting">
+<a href="<!=link!>" itemprop="url">
+<div class="p-wrap">
+<p itemprop="name headline"><!=title!></p>
+</div>
+</a>
+</li>
+</script>
+
 <div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li itemscope itemtype="http://schema.org/BlogPosting">
-        <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
-          <div class="p-wrap">
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="date"
-                itemprop="datePublished">
-              {{ post.date | date_to_string }}
-            </time>
-            <p itemprop="name headline">{{ post.title }}</p>
-          </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+	<ul class="posts" id="container">
+		<!-- Get the content from the script tag up above -->
+	</ul>
 </div>
