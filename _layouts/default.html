@@ -1,80 +1,84 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 <head>
-	<title>{{ site.name }} - {{ site.description }}</title>
+    <title>{{ site.name }} - {{ site.description }}</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta http-equiv="content-language" content="en-gb" />
 	<meta name="description" content="{{ site.description }}">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css?v=2" />
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/syntax.css" />
-	<link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+	<link href="https://medium.com/feed/@jon_lay" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
+<body class="">
 
-<body>
-    <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+    <div id="wrapper">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-title-wrapper">
+                        <h1 class="site-title"><a title="Jon Lay" href="/">Jon Lay</a></h1>
+                        <a class="button-square" href="https://medium.com/feed/@jon_lay"><i class="fa fa-rss"></i></a>
+                </div>
 
-        <header>
-        	<div class="h-wrap">
-        		<h1 class="title"><a href="/" title="Back to Homepage">{{ site.name }}</a></h1>
-        		<a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
-        	</div>
+                <ul class="site-nav">
+                    <li class="site-nav-item"><a title="About | {{@blog.title}}" href="{{@blog.url}}/about">About</a></li>
+                </ul>
+            </div>
         </header>
-
-		<div id="off-canvas">
-        	<div id="avatar">
-        		<img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Profile Picture" title="wow, very face, such photograph, wow">
-        	</div>
-        	<div id="bio">
-        		<h1>Who am I?</h1>
-        		<p>A UX designer and developer by trade, I'm the founder of a UX design agency called <a href="http://hanno.co">Hanno</a>. These days I spend as much time thinking and writing about <a href="http://en.wikipedia.org/wiki/Peopleware">peopleware</a> as I do about software.</p>
-				<p>I'm a food and craft beer-loving Londoner who is currently based in Kuala Lumpur. No doubt, I'll look back on most of this writing in the future and cringe.</p>
-        		<p><a href="http://hanno.co/team/jon">Check out my full profile</a> or <a href="https://twitter.com/jon_lay">grab me on Twitter</a>.</p>
-        	</div>
+    
+        <div id="ajax-container">
+            {{ content }}
         </div>
+    </div>
 
-        <main>
-        	{{ content }}
-        </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="site-title-wrapper">
+                <h1 class="site-title"><a title="Jon Lay" href="/">Jon Lay</a></h1>
 
-        <footer>
-        	<small>Powered by Jekyll - Theme: <a href="https://github.com/m3xm/hikari-for-Jekyll">hikari</a> - &copy; {{ site.author }}</small>
-        </footer>
+                <a class="button-square button-jump-top js-jump-top" href="#"><i class="fa fa-angle-up"></i></a>
+            </div>
 
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-         <script src="{{ site.baseurl }}/js/main.js?v=2"></script>
+            <p class="footer-copyright">&copy; {{date format="YYYY"}} / Published with <a href="https://ghost.org">Jekyll</a> on a modified <a href="https://github.com/roryg/ghostwriter">Ghostwriter</a> theme</p>
+        </div>
+    </footer>
+    
+    <script src="{{ site.baseurl }}/js/jquery-2.1.1.min.js"></script>
+	<script src="{{ site.baseurl }}/js/jquery.feeds.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
 
-        <script src="{{ site.baseurl }}/js/jquery-2.1.1.min.js"></script>
-		<script src="{{ site.baseurl }}/js/jquery.feeds.js"></script>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>	
 
-		<script>
-		$('#container').feeds({
-		    feeds: {
-		        blog: 'https://medium.com/feed/@jon_lay/',
-		    },
-		    entryTemplate: 'exampleTemplate'
-		});
-		</script>
+	<script>
+	$('#container').feeds({
+	    feeds: {
+	        blog: 'https://medium.com/feed/@jon_lay/',
+	    },
+	    entryTemplate: 'exampleTemplate'
+	});
+	</script>
 
-        {% comment %} Google Analytics {% endcomment %}
-        {% if site.ga_tracking_id and site.ga_domain %}
-        <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	{% comment %} Google Analytics {% endcomment %}
+	{% if site.ga_tracking_id and site.ga_domain %}
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', '{{ site.ga_tracking_id }}', '{{ site.ga_domain }}');
-        ga('send', 'pageview');
-        </script>
-        {% endif %}
+	ga('create', '{{ site.ga_tracking_id }}', '{{ site.ga_domain }}');
+	ga('send', 'pageview');
+	</script>
+	{% endif %}
 
-    </body>
-    </html>
+</body>
+</html>
