@@ -8,8 +8,11 @@ baseurl: ""
 
 markdown: rdiscount
 permalink: :year/:month/:title
-pygments: true
+highlighter: pygments
 
 # Google Analytics
 ga_domain: jonlay.com
 ga_tracking_id: UA-51784778-1
+
+gems:
+  - jekyll-redirect-from
