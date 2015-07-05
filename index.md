@@ -10,7 +10,7 @@ title: Homepage
   <div class="col-sm-8">
     <h1>I'm a designer, developer, founder, culture hacker &amp; noodle aficionado.</h1>
     <p class="lead">I started out as a lawyer and then quit to start a design firm called <a href="http://hanno.co">Hanno</a>, where we help startups to do great UX design.</p>
-    <p class="lead">On the way, I moved from London to Asia and I now spend my time trying to figure out how to turn that company into a <a href="https://en.wikipedia.org/wiki/Social_business" title="social business">social business</a> and have a positive impact on the world. I'm also a wildly overzealous emoji user.</p>
+    <p class="lead">On the way, I moved from London to Asia and I now spend my time trying to figure out how to turn Hanno into a <a href="https://en.wikipedia.org/wiki/Social_business" title="social business">social business</a> and have a positive impact on the world. I'm also a wildly overzealous emoji user.</p>
   </div>
 </div>
 
