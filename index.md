@@ -26,24 +26,3 @@ title: Homepage
     <h3><a href="https://twitter.com/jon_lay" title="">Twitter</a>, <a href="https://www.linkedin.com/in/jonlay" title="LinkedIn">LinkedIn</a>, <a href="https://github.com/jonlay" title="GitHub">GitHub</a>, <a href="https://medium.com/@jon_lay" title="Medium">Medium</a> and <a href="https://www.goodreads.com/user/show/24302318-jon-lay">Goodreads</a>.</h3>
   </div>
 </div>
-
-<hr>
-
-<div class="row">
-  <div class="col-lg-4">
-    <h3>Recent scribblings</h3>
-  </div>
-  <div class="col-lg-8">
-    <div id="ajax-container"></div>
-    <div class="post-index" class="container">
-      <ul class="posts post-list list-unstyled" id="container">
-      </ul>
-    </div>
-  </div>
-</div>
-
-<script type="text/html" id="exampleTemplate">
-  <li class="post-stub" >
-    <p class="lead"><a title="<!=title!>" href="<!=link!>"><!=title!></a></p>
-  </li>
-</script>

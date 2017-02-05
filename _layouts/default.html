@@ -40,30 +40,9 @@
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-  <script src="{{ site.baseurl }}/assets/js/jquery.feeds.js"></script>
-  <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.fitvids.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
 
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-  <script>
-  $('#container').feeds({
-   feeds: {
-     blog: 'https://medium.com/feed/@jon_lay/',
-   },
-   entryTemplate: 'exampleTemplate',
-   preprocess: function ( feed ) {
-        // Atom feeds provide an author uri which is not accesible
-        // through the properties exposed by the Google Feed API.
-        // this.title = this.title 'hello';
-        // this.title.replace("Logbook", "Bloomer");
-
-        this.title = this.title.replace(/^"/,"");
-        this.title = this.title.replace('" in The Logbook','');
-      }
-    });
-  </script>
 
   {% comment %} Google Analytics {% endcomment %}
   {% if site.ga_tracking_id and site.ga_domain %}
