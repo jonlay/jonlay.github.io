@@ -10,7 +10,7 @@ title: Homepage
   <div class="col-sm-8">
     <h1>Designer. Developer. Founder. Noodle aficionado. Appreciator of awful puns.</h1>
 
-    <p class="lead">I&rsquo;ve founded 2 businesses: [Hanno](https://hanno.co) (a digital product design team) and [PingPong](https://hellopingpong.com) (a SaaS product for running great user research).</p>
+    <p class="lead">I&rsquo;ve founded 2 businesses: <a href="https://hanno.co">Hanno</a> (a digital product design team) and <a href="https://hellopingpong.com">PingPong</a> (a SaaS startup to help product makers run great user research).</p>
     
     <p class="lead">I go to work each day to try and help solve the environmental crisis and improve human health.</p>
   </div>
