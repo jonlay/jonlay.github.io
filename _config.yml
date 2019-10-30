@@ -1,5 +1,5 @@
 name: "Jon Lay"
-description: "Designer, developer, founder, culture hacker & noodle aficionado."
+description: "Designer, developer, founder & noodle aficionado."
 
 author: "Jon Lay"
 
@@ -8,11 +8,7 @@ baseurl: ""
 
 markdown: rdiscount
 permalink: :year/:month/:title
-highlighter: pygments
-
-# Google Analytics
-ga_domain: jonlay.com
-ga_tracking_id: UA-51784778-1
+highlighter: rouge
 
 gems:
   - jekyll-redirect-from
